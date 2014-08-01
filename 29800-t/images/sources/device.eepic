@@ -1,0 +1,93 @@
+%% Generated from device.xp on Thu Apr  9 21:42:13 EDT 2009 by
+%% ePiX-1.2.6
+%% 
+%%   Cartesian bounding box: [-1,1] x [-1,1]
+%%   Actual size: 1 x 1in
+%%   Figure offset: left by 0in, down by 0in
+%% 
+%% usepackages tikz
+%% 
+\xdefinecolor{rgb_000000}{rgb}{0,0,0}%
+\begin{tikzpicture}
+\pgfsetlinewidth{0.4pt}
+\useasboundingbox (0in,0in) rectangle (1in,1in);
+\pgfsetlinewidth{0.8pt}
+\draw (1in,0.5in)--(0.999315in,0.526168in)--
+  (0.997261in,0.552264in)--(0.993844in,0.578217in)--
+  (0.989074in,0.603956in)--(0.982963in,0.62941in)--
+  (0.975528in,0.654508in)--(0.96679in,0.679184in)--
+  (0.956773in,0.703368in)--(0.945503in,0.726995in)--
+  (0.933013in,0.75in)--(0.919335in,0.77232in)--
+  (0.904508in,0.793893in)--(0.888573in,0.81466in)--
+  (0.871572in,0.834565in)--(0.853553in,0.853553in)--
+  (0.834565in,0.871572in)--(0.81466in,0.888573in)--
+  (0.793893in,0.904508in)--(0.77232in,0.919335in)--
+  (0.75in,0.933013in)--(0.726995in,0.945503in)--
+  (0.703368in,0.956773in)--(0.679184in,0.96679in)--
+  (0.654508in,0.975528in)--(0.62941in,0.982963in)--
+  (0.603956in,0.989074in)--(0.578217in,0.993844in)--
+  (0.552264in,0.997261in)--(0.526168in,0.999315in)--(0.5in,1in)--
+  (0.473832in,0.999315in)--(0.447736in,0.997261in)--
+  (0.421783in,0.993844in)--(0.396044in,0.989074in)--
+  (0.37059in,0.982963in)--(0.345492in,0.975528in)--
+  (0.320816in,0.96679in)--(0.296632in,0.956773in)--
+  (0.273005in,0.945503in)--(0.25in,0.933013in)--
+  (0.22768in,0.919335in)--(0.206107in,0.904508in)--
+  (0.18534in,0.888573in)--(0.165435in,0.871572in)--
+  (0.146447in,0.853553in)--(0.128428in,0.834565in)--
+  (0.111427in,0.81466in)--(0.0954915in,0.793893in)--
+  (0.0806647in,0.77232in)--(0.0669873in,0.75in)--
+  (0.0544967in,0.726995in)--(0.0432273in,0.703368in)--
+  (0.0332098in,0.679184in)--(0.0244717in,0.654508in)--
+  (0.0170371in,0.62941in)--(0.0109262in,0.603956in)--
+  (0.00615583in,0.578217in)--(0.00273905in,0.552264in)--
+  (0.000685233in,0.526168in)--(0in,0.5in)--
+  (0.000685233in,0.473832in)--(0.00273905in,0.447736in)--
+  (0.00615583in,0.421783in)--(0.0109262in,0.396044in)--
+  (0.0170371in,0.37059in)--(0.0244717in,0.345492in)--
+  (0.0332098in,0.320816in)--(0.0432273in,0.296632in)--
+  (0.0544967in,0.273005in)--(0.0669873in,0.25in)--
+  (0.0806647in,0.22768in)--(0.0954915in,0.206107in)--
+  (0.111427in,0.18534in)--(0.128428in,0.165435in)--
+  (0.146447in,0.146447in)--(0.165435in,0.128428in)--
+  (0.18534in,0.111427in)--(0.206107in,0.0954915in)--
+  (0.22768in,0.0806647in)--(0.25in,0.0669873in)--
+  (0.273005in,0.0544967in)--(0.296632in,0.0432273in)--
+  (0.320816in,0.0332098in)--(0.345492in,0.0244717in)--
+  (0.37059in,0.0170371in)--(0.396044in,0.0109262in)--
+  (0.421783in,0.00615583in)--(0.447736in,0.00273905in)--
+  (0.473832in,0.000685233in)--(0.5in,0in)--
+  (0.526168in,0.000685233in)--(0.552264in,0.00273905in)--
+  (0.578217in,0.00615583in)--(0.603956in,0.0109262in)--
+  (0.62941in,0.0170371in)--(0.654508in,0.0244717in)--
+  (0.679184in,0.0332098in)--(0.703368in,0.0432273in)--
+  (0.726995in,0.0544967in)--(0.75in,0.0669873in)--
+  (0.77232in,0.0806647in)--(0.793893in,0.0954915in)--
+  (0.81466in,0.111427in)--(0.834565in,0.128428in)--
+  (0.853553in,0.146447in)--(0.871572in,0.165435in)--
+  (0.888573in,0.18534in)--(0.904508in,0.206107in)--
+  (0.919335in,0.22768in)--(0.933013in,0.25in)--
+  (0.945503in,0.273005in)--(0.956773in,0.296632in)--
+  (0.96679in,0.320816in)--(0.975528in,0.345492in)--
+  (0.982963in,0.37059in)--(0.989074in,0.396044in)--
+  (0.993844in,0.421783in)--(0.997261in,0.447736in)--
+  (0.999315in,0.473832in)--(1in,0.5in)--cycle;
+\pgftext[at={\pgfpoint{0.5in}{0.5in}}] {\makebox(0,0)[c]{\hbox{\color{rgb_000000}\textbf{\footnotesize $\sqrt{-1}$}}}}
+\pgftext[at={\pgfpoint{0.278861in}{0.833313in}}] {\makebox(0,0)[c]{\rotatebox{-146.438}{\hbox{\color{rgb_000000}\textbf{\footnotesize L'}}}}}
+\pgftext[at={\pgfpoint{0.175626in}{0.734054in}}] {\makebox(0,0)[c]{\rotatebox{-125.812}{\hbox{\color{rgb_000000}\textbf{\footnotesize U}}}}}
+\pgftext[at={\pgfpoint{0.122508in}{0.632288in}}] {\makebox(0,0)[c]{\rotatebox{-109.312}{\hbox{\color{rgb_000000}\textbf{\footnotesize N}}}}}
+\pgftext[at={\pgfpoint{0.100482in}{0.519627in}}] {\makebox(0,0)[c]{\rotatebox{-92.8125}{\hbox{\color{rgb_000000}\textbf{\footnotesize I}}}}}
+\pgftext[at={\pgfpoint{0.11136in}{0.40535in}}] {\makebox(0,0)[c]{\rotatebox{-76.3125}{\hbox{\color{rgb_000000}\textbf{\footnotesize O}}}}}
+\pgftext[at={\pgfpoint{0.154246in}{0.298867in}}] {\makebox(0,0)[c]{\rotatebox{-59.8125}{\hbox{\color{rgb_000000}\textbf{\footnotesize N}}}}}
+\pgftext[at={\pgfpoint{0.270212in}{0.17259in}}] {\makebox(0,0)[c]{\rotatebox{-35.0625}{\hbox{\color{rgb_000000}\textbf{\footnotesize F}}}}}
+\pgftext[at={\pgfpoint{0.372664in}{0.120809in}}] {\makebox(0,0)[c]{\rotatebox{-18.5625}{\hbox{\color{rgb_000000}\textbf{\footnotesize A}}}}}
+\pgftext[at={\pgfpoint{0.485604in}{0.100259in}}] {\makebox(0,0)[c]{\rotatebox{-2.0625}{\hbox{\color{rgb_000000}\textbf{\footnotesize I}}}}}
+\pgftext[at={\pgfpoint{0.59973in}{0.112632in}}] {\makebox(0,0)[c]{\rotatebox{14.4375}{\hbox{\color{rgb_000000}\textbf{\footnotesize T}}}}}
+\pgftext[at={\pgfpoint{0.752744in}{0.189967in}}] {\makebox(0,0)[c]{\rotatebox{39.1875}{\hbox{\color{rgb_000000}\textbf{\footnotesize L}}}}}
+\pgftext[at={\pgfpoint{0.83039in}{0.274517in}}] {\makebox(0,0)[c]{\rotatebox{55.6875}{\hbox{\color{rgb_000000}\textbf{\footnotesize A}}}}}
+\pgftext[at={\pgfpoint{0.894442in}{0.433551in}}] {\makebox(0,0)[c]{\rotatebox{80.4375}{\hbox{\color{rgb_000000}\textbf{\footnotesize F}}}}}
+\pgftext[at={\pgfpoint{0.897071in}{0.548315in}}] {\makebox(0,0)[c]{\rotatebox{96.9375}{\hbox{\color{rgb_000000}\textbf{\footnotesize O}}}}}
+\pgftext[at={\pgfpoint{0.866998in}{0.659099in}}] {\makebox(0,0)[c]{\rotatebox{113.438}{\hbox{\color{rgb_000000}\textbf{\footnotesize R}}}}}
+\pgftext[at={\pgfpoint{0.806698in}{0.756781in}}] {\makebox(0,0)[c]{\rotatebox{129.938}{\hbox{\color{rgb_000000}\textbf{\footnotesize C}}}}}
+\pgftext[at={\pgfpoint{0.721139in}{0.833313in}}] {\makebox(0,0)[c]{\rotatebox{146.438}{\hbox{\color{rgb_000000}\textbf{\footnotesize E}}}}}
+\end{tikzpicture}

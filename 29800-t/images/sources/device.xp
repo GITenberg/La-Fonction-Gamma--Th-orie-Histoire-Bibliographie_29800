@@ -1,0 +1,92 @@
+/* -*-ePiX-*- */
+#include "epix.h"
+using namespace ePiX;
+
+const double rad(0.8);
+
+const double lett(16.5); // inter-letter spacing
+const double skip(0.25); // extra apostrophe space
+const double word(1.5*lett); // inter-word spacing
+const double start(90 + 0.5*(360 - (13+skip)*lett - 3*word));
+
+void label(double th, const std::string& C)
+{
+  label_angle(90+th);
+  label(polar(rad, th), C);
+}
+
+void runtext()
+{
+  double th(start);
+  label(th, "L'");
+  th += (1+skip)*lett;
+
+  label(th, "U");
+  th += lett;
+
+  label(th, "N");
+  th += lett;
+
+  label(th, "I");
+  th += lett;
+
+  label(th, "O");
+  th += lett;
+
+  label(th, "N");
+  th += word;
+
+
+  label(th, "F");
+  th += lett;
+
+  label(th, "A");
+  th += lett;
+
+  label(th, "I");
+  th += lett;
+
+  label(th, "T");
+  th += word;
+
+
+  label(th, "L");
+  th += lett;
+
+  label(th, "A");
+  th += word;
+
+
+  label(th, "F");
+  th += lett;
+
+  label(th, "O");
+  th += lett;
+
+  label(th, "R");
+  th += lett;
+
+  label(th, "C");
+  th += lett;
+
+  label(th, "E");
+}
+
+int main()
+{
+  picture(P(-1,-1), P(1,1), "1 x 1in");
+
+  begin();
+
+  bold();
+  degrees();
+  circle();
+
+  font_size("footnotesize");
+  font_face("bf");
+  label(P(0,0), "$\\sqrt{-1}$");
+
+  runtext();
+  tikz_format();
+  end();
+}
