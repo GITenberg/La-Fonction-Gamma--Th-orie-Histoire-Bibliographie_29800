@@ -1,0 +1,29 @@
+_repo: La-Fonction-Gamma--Th-orie-Histoire-Bibliographie_29800
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Godefroy, Maurice
+    birthdate: 1872
+    gutenberg_agent_id: '34188'
+    url: http://www.gutenberg.org/2009/agents/34188
+description: ''
+gutenberg_bookshelf:
+- Mathematics
+- FR Sciences et Techniques
+gutenberg_issued: '2009-08-26'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '29800'
+  lccn: '14006484'
+language: fr
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Gamma functions'
+- !lcc 'QA'
+title: 'La Fonction Gamma: Théorie, Histoire, Bibliographie'
+url: http://www.gutenberg.org/ebooks/29800
